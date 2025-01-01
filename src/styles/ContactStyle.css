@@ -1,0 +1,248 @@
+
+.contact-section {
+    /* height: 130vh; */
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #ECF0F3;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding-top: 110px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-section {
+        padding-top: 450px;
+    }
+}
+
+.contact-section .head {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #af3b00;
+    letter-spacing: 1px;
+}
+
+.contact-section .title {
+    font-size: 32px;
+    margin: 16px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contact-section .contact-left {
+    background: #ECF0F3;
+    box-shadow: 5px 10px 10px #B0B6C0;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.3s;
+    height: 800px;
+}
+
+@media (max-width: 991px) {
+    .contact-section .contact-left {
+        height: 1060px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-section .contact-left {
+        height: 880px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-section .contact-left {
+        height: 800px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact-section .contact-left {
+        height: 720px;
+    }
+}
+
+.contact-section .contact-left img {
+    transition: 0.5s;
+}
+
+.contact-section .contact-left img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.contact-section .contact-left .head {
+    color: #212529;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contact-section .contact-left .parah {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contact-section .contact-left .sub-parah {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.contact-section .down {
+    padding-top: 30px;
+}
+
+@media(max-width: 1024px) {
+    .contact-section .down {
+        padding-top: 80px;
+    }
+}
+
+.contact-section .down .head {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-section .down .btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-section .down a .menu-btn {
+    padding: 18px 20px;
+    margin: 0 10px;
+    border: 0px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 10px 10px #B0B6C0;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .3s;
+    color: #212529;
+}
+
+@media (max-width: 1199px) {
+    .contact-section .down a .menu-btn {
+        margin: 20px 5px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-section .down a .menu-btn {
+        margin: 20px 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-section .down a .menu-btn {
+        margin: 20px 8px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact-section .down a .menu-btn {
+        margin: 20px 1px;
+        overflow: hidden;
+    }
+}
+
+.contact-section .down a .menu-btn:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.contact-section .down a .menu-btn .linkedin {
+    color: #0270ad;
+}
+
+.contact-section .down a .menu-btn .github {
+    color: #000
+}
+
+.contact-section .down a .menu-btn .insta {
+    color: #da2f7e;
+}
+
+.contact-section .down a .menu-btn .actor {
+    color: #af3b00;
+}
+
+.contact-section .contact-right {
+    background: #ECF0F3;
+    box-shadow: 5px 10px 10px #B0B6C0;
+    padding: 25px;
+    border-radius: 10px;
+    height: 800px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.contact-section .contact-right .text-uppercase {
+    color: #af3b00;
+}
+
+@media (max-width: 575px) {
+    .contact-section .contact-right {
+        height: 850px;
+    }
+}
+
+.contact-section .contact-right .btn-main {
+    width: 97%;
+    background-color: transparent !important;
+    color: #af3b00 !important;
+    box-shadow: 5px 5px 10px #B0B6C0 !important;
+}
+
+.contact-section .contact-right .btn-main:hover {
+    background-color: #af3b00 !important;
+    color: #fff !important;
+}
+
+.contact-section .last-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section .to-top-btn {
+    padding: 18px 20px;
+    margin: 0 10px;
+    border: 0px solid #fff;
+    color: #af3b00;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 10px 10px #B0B6C0;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: .3s;
+    width: auto;
+}
+
+@media(max-width: 425px) {
+    .contact-section .to-top-btn {
+        margin-top: 10px;
+    }
+}
+
+.contact-section .to-top-btn:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* @media (max-width: 768px) {
+    .contact-section .contact-left {
+        height: 100%;
+    }
+
+    .contact-section .contact-right {
+        height: 100%;
+    }
+} */
