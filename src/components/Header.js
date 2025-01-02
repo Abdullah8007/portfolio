@@ -43,7 +43,6 @@ const Header = () => {
               <Nav.Link className='nav-menu'><Link to="home" spy={true} smooth={true} offset={0} duration={100}>Home</Link></Nav.Link>
               <Nav.Link className='nav-menu'><Link to="about" spy={true} smooth={true} offset={0} duration={100}>About</Link></Nav.Link>
               <Nav.Link className='nav-menu'><Link to="skills" spy={true} smooth={true} offset={0} duration={100}>Skills</Link></Nav.Link>
-              // <Nav.Link className='nav-menu'><Link to="projects" spy={true} smooth={true} offset={0} duration={100}>Projects</Link></Nav.Link>
               <Nav.Link className='nav-menu'><Link to="contact" spy={true} smooth={true} offset={0} duration={100}>Contact</Link></Nav.Link>
               <a href='/Abdullah Jagrala CV.pdf' target='_blank' rel='noreferrer'><Button className='btn-main'>Resume</Button></a>
             </Nav>
